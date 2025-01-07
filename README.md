@@ -33,7 +33,7 @@ Confira uma apresentação em vídeo do projeto: [https://www.youtube.com/watch?
 2.  **Clonar o repositório:**
 
     ```bash
-    git clone https://[link-do-seu-repositorio].git
+    git clone https://github.com/GabrielBaiano/Todo_list_APP.git
     cd nome-do-projeto
     ```
 
