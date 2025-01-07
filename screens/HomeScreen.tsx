@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, FlatList, Modal } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 interface Task {
@@ -12,6 +13,12 @@ const App = () => {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [modalVisible, setModalVisible] = useState(false);
   const [newTask, setNewTask] = useState('');
+  
+  const navigation = useNavigation();
+
+  const handleLogout = () => {
+    navigation.goBack();
+  };
 
   const addTask = () => {
     if (newTask.trim() !== '') {
@@ -41,7 +48,7 @@ const App = () => {
       {/* Header */}
       <View style={styles.header}>
         <Text style={styles.logo}>todo</Text>
-        <TouchableOpacity style={styles.logoutButton}>
+        <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>
           <Icon name="log-out-outline" size={24} color="black" />
         </TouchableOpacity>
       </View>
