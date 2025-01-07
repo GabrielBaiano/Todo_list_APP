@@ -76,31 +76,3 @@ Todo_list_app/
 ├── ...                 // Outros arquivos e pastas
 ├── package.json        // Arquivo de dependências
 └── ...
-
-## Próximos Passos (Opcional)
-
-*   Implementar persistência de dados (usando AsyncStorage, Realm, etc.).
-*   Adicionar funcionalidades de edição de tarefas.
-*   Melhorar o design da interface do usuário.
-*   Adicionar testes unitários e de integração.
-*   Implementar autenticação de usuário.
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
-
-## Licença
-
-[Coloque aqui a licença do seu projeto, ex: MIT License]
-
----
-
-**Observações:**
-
-*   Substitua `[link-do-seu-repositorio]` pelo link real do seu repositório no GitHub ou outro serviço.
-*   Adapte a seção "Próximos Passos" de acordo com seus planos para o projeto.
-*   Adicione uma licença ao seu projeto. A licença MIT é uma boa opção para projetos open source.
-*   Se você tiver outros arquivos importantes, como imagens ou outros recursos, mencione-os na estrutura do projeto.
-*   Este README foi formatado usando Markdown. Certifique-se de que seu editor de texto ou IDE suporte Markdown para visualizá-lo corretamente.
-
-Este README deve fornecer uma boa visão geral do seu projeto. Lembre-se de atualizá-lo à medida que você adiciona novas funcionalidades ou faz alterações significativas.
