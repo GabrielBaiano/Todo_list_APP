@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { useNavigation } from '@react-navigation/native';
 
@@ -32,8 +32,11 @@ const LoginScreen: React.FC<Props> = () => {
   return (
     <View style={styles.container}>
       <View style={styles.titleContainer}>
-        <Icon name="rocket" size={30} color="#8A2BE2" style={styles.rocketIcon} />
-        <Text style={styles.title}>todo</Text>
+        <Image source={require('../assets/Logo.png')} style={{
+          margin:60,
+          height: 40,
+        }}></Image>
+  
       </View>
 
       <TextInput
